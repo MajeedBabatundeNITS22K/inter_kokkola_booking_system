@@ -69,12 +69,12 @@ Game_Plan/
 
 | Week | Focus |
 |-----|------|
-| Week 1 | Setup, Authentication basics (~20 hours) |
-| Week 2 | Dashboards and Polls (~25 hours) |
-| Week 3 | Testing, UI Polishing (~25 hours) |
-| Week 4 | Documentation, Presentation (~20 hours) |
+| Week 1 | Setup, Authentication basics (~23 hours) |
+| Week 2 | Dashboards and Polls (~28 hours) |
+| Week 3 | Testing, UI Polishing (~28 hours) |
+| Week 4 | Documentation, Presentation (~9 hours) |
 
-**Total Development Time:** ~90 hours
+**Total Development Time:** ~88 hours
 
 ---
 
