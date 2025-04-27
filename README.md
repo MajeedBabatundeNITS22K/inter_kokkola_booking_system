@@ -1,29 +1,118 @@
-# Inter Kokkola Football Team Website
 
-## Overview
+# Game Plan
 
-This project aims to develop a football team website for **Inter Kokkola**. The website will include several features for better team management and communication, including match scheduling, availability tracking, a real-time chat system, and notifications.
+A simple **team management** web application built for Football Clubs.
 
-## Features
+---
 
-- **Match Schedule & Player Availability**:\
-  Coaches can create match schedules, and players can mark their availability as **In**, **Out**, or **Injured**.
+## 🌟 Main Features
 
-- **Real-time Chat System**:\
-  A chat feature for players and coaches to communicate directly.
+- **Authentication**  
+  - Player and Coach can sign up and log in using **Firebase Authentication**.
 
-- **Notifications**:\
-  Players receive notifications when a new match is scheduled or when a poll is created.
+- **Coach Dashboard**  
+  - Coach can create **new match polls** (date, time, opponent, and tournament link).
+  - View list of **all upcoming matches**.
 
-- **Statistics Dashboard**:\
-  Display match results, player performance stats, and attendance trends.
+- **Player Dashboard**  
+  - Players can see **upcoming matches**.
+  - Players can submit their **availability** (In / Out / Injured) for each match.
 
-## Technologies to be Used.
+- **Match Polls**
+  - Coaches create match events.
+  - Players respond with their availability.
+  - Coaches can track responses easily.
 
-- **Frontend**: Vue.js
-- **Backend**: Node.js
-- **Database**: Firebase Firestore
-- **Authentication**: Firebase Authentication
-- **Notifications**: Firebase Cloud Messaging (FCM)
+---
 
-(Technologies may be updated).
+## 💂️ Project Structure
+
+```
+Game_Plan/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── MatchPoll.vue        # Form for players to submit In/Out/Injured
+│   │   ├── MatchList.vue         # List of upcoming matches
+│   │   └── Navbar.vue            # Navigation bar
+│   ├── views/
+│   │   ├── Login.vue             # Login page
+│   │   ├── CoachDashboard.vue    # Coach’s dashboard page
+│   │   ├── PlayerDashboard.vue   # Player’s dashboard page
+│   │   └── CreatePoll.vue        # Coach creates match/tournament poll
+│   ├── router/
+│   │   └── index.js              # Routes (Coach/Player dashboards, Login)
+│   ├── store/
+│   │   └── index.js              # Vuex store for managing login state, polls
+│   ├── firebase-config.js        # Firebase setup file
+│   ├── App.vue
+│   ├── main.js
+├── package.json
+├── README.md
+└── vue.config.js
+```
+
+---
+
+## ⚙️ Tech Stack
+
+- **Vue 3** (Frontend Framework)
+- **Firebase** (Authentication and Database)
+- **Vue Router** (Page Navigation)
+- **Vuex** (State Management)
+
+---
+
+## 📆 Development Timeline
+
+| Week | Focus |
+|-----|------|
+| Week 1 | Setup, Authentication basics (~20 hours) |
+| Week 2 | Dashboards and Polls (~25 hours) |
+| Week 3 | Testing, UI Polishing (~25 hours) |
+| Week 4 | Documentation, Presentation (~20 hours) |
+
+**Total Development Time:** ~90 hours
+
+---
+
+## 📌 Future Improvements
+
+- Add **real-time chat** between players and coaches.
+- Push **notifications** for new polls and changes.
+- Performance statistics tracking for players.
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+   ```
+   git clone https://github.com/MajeedBabatundeNITS22K/inter_kokkola_booking_system.git
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+3. Run the application
+   ```
+   npm run serve
+   ```
+
+4. Open in browser
+   ```
+   http://localhost:8080
+   ```
+
+---
+
+✅ Project supervised under **Capstone 2025** course, Central University of Applied Sciences.
+
+# Developer
+
+- Majeed Babatunde
+
