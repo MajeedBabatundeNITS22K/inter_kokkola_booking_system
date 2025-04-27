@@ -57,7 +57,7 @@ This logbook tracks the weekly hours, dates, and activities during the developme
 
 | Date       | Hours | Activity Description |
 |------------|-------|------------------------|
-| April 26   | 5     | |
+| April 26   | 5     | Rview and Unit Testing |
 | April 27   | 4     | Created Final Presentation slides. & Project submission (Logbook, README, Presentation). |
 
 
